@@ -1,0 +1,112 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "As a user, must do succefull login with valid credential",
+        "description": "",
+        "id": "login-function-testing;as-a-user--must-do-succefull-login-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5358479800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open a browser",
+            "match": {
+              "location": "Stepdef.open_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2798046200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "go to application URL",
+            "match": {
+              "location": "Stepdef.go_to_application_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4274449701,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "put user name",
+            "match": {
+              "location": "Stepdef.put_user_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241936301,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "put password",
+            "match": {
+              "location": "Stepdef.put_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126373600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click sign in button",
+            "match": {
+              "location": "Stepdef.click_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Validate login was success",
+            "match": {
+              "location": "Stepdef.check_sign_otu_button_there_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC_001"
+          }
+        ]
+      }
+    ],
+    "name": "Login function testing",
+    "description": "",
+    "id": "login-function-testing",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Automation%20Login.feature",
+    "tags": [
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
